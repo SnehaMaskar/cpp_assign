@@ -2,8 +2,10 @@
 using namespace std;
 
 int main(){
-    int a=10;
-    int b=10;
+    int a;
+    int b;
+    cout<<"enter a,b :"<<endl;
+    cin>>a>>b;
     int add = a + b;
     cout<<"Addition : "<<add<<endl;
     return 0;
